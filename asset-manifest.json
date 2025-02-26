@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/risfrontend/static/css/main.6c314d65.css",
-    "main.js": "/risfrontend/static/js/main.9cc90d11.js",
+    "main.js": "/risfrontend/static/js/main.c4ce3ad9.js",
     "static/media/CyberSecurity Roadmap 2025.png": "/risfrontend/static/media/CyberSecurity Roadmap 2025.5824af72d8d401f6c437.png",
     "static/media/travellapp.png": "/risfrontend/static/media/travellapp.afd8540c204f5df2a59c.png",
     "static/media/movieapp.png": "/risfrontend/static/media/movieapp.acb94174cf94bf37f20e.png",
@@ -23,6 +23,6 @@
   },
   "entrypoints": [
     "static/css/main.6c314d65.css",
-    "static/js/main.9cc90d11.js"
+    "static/js/main.c4ce3ad9.js"
   ]
 }
