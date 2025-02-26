@@ -979,3 +979,101 @@ span :hover{
   .roadmap-step img{
     width: 100vw;
   }
+  /* General Page Styles */
+  .admin-container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+  }
+
+  h2 {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+
+  /* Booking List */
+  .booking-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  .booking-card {
+      background: #f8f9fa;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .booking-card h3 {
+      margin: 0;
+      font-size: 18px;
+      color: #333;
+  }
+
+  .booking-card p {
+      margin: 5px 0;
+      color: #555;
+  }
+
+  /* View Details Button */
+  .view-btn {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease-in-out;
+  }
+
+  .view-btn:hover {
+      background-color: #0056b3;
+  }
+
+  /* Booking Details */
+  .booking-details {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+      margin-top: 15px;
+  }
+
+  .booking-details h3 {
+      margin-top: 0;
+  }
+
+  /* Confirm Payment Button */
+  .confirm-btn {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s ease-in-out;
+      margin-top: 10px;
+  }
+
+  .confirm-btn:hover {
+      background-color: #218838;
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+      .booking-card {
+          flex-direction: column;
+          align-items: flex-start;
+      }
+
+      .view-btn {
+          width: 100%;
+          text-align: center;
+      }
+  }

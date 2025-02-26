@@ -11,10 +11,10 @@ import Nav from './Elements/Nav';
 import Coding from './Elements/Coding';
 import Booking from './Elements/Booking';
 import RoadMap from './Elements/RoadMap';
+import AdminPanel from './Admin/Admin';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Nav />
       <Routes>
@@ -26,7 +26,7 @@ root.render(
         <Route path="/projectdesc/:projectName" element={<ProjectDesc />} />
         <Route path="/contact" element={<Contact />} />
         <Route path='/codingprofiles' element={<Coding />} />
+        <Route path='/admin' element={<AdminPanel/>}/>
       </Routes>
     </BrowserRouter>
-  </React.StrictMode>
 );
