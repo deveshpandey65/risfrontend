@@ -14,7 +14,7 @@ export default function Nav() {
         <Link to="/about">About</Link>
         <Link to="/booking"> Book 1/1 Session</Link>
         <Link to="/roadmap">Roadmap</Link>
-        {/* <Link to="/projects">Projects</Link> */}
+        <Link to="/admin">Admin</Link>
         <Link to ="/codingprofiles">Social Profiles</Link>
       </div>
     </div>
